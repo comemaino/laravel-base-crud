@@ -12149,3 +12149,46 @@ fieldset:disabled .btn {
   }
 }
 
+body {
+  background-color: #222;
+}
+
+form {
+  color: #ccc;
+}
+
+.container ul {
+  list-style: none;
+}
+
+.container ul li {
+  width: calc(25% - 1rem);
+  background-color: #444;
+}
+
+.container ul li ._card img {
+  width: 100%;
+}
+
+.container ul li ._card h4,
+.container ul li ._card .h4 {
+  font-size: 1rem;
+}
+
+.container ul li ._card h4 a,
+.container ul li ._card .h4 a {
+  color: #ddd;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container ul li ._card .price {
+  font-weight: 600;
+  margin: auto 0 0;
+  background-color: #8fa;
+}
+
+.show {
+  color: #fff;
+}
+

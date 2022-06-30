@@ -1,0 +1,36 @@
+.container {
+
+  ul {
+    list-style: none;
+  
+
+    li {
+      width: calc(25% - 1rem);
+      background-color: #444;
+
+      ._card {
+
+       
+        img {
+          width: 100%;
+        }
+
+        h4 {
+          font-size: 1rem;
+          
+          a {
+            color: #ddd;
+            text-decoration: none;
+            text-transform: uppercase;
+          }
+        }
+
+        .price {
+          font-weight: 600;
+          margin: auto 0 0;
+          background-color: #8fa;
+        }
+      }
+    }
+  }
+}
