@@ -12157,6 +12157,10 @@ form {
   color: #ccc;
 }
 
+.error * {
+  background-color: none;
+}
+
 .container ul {
   list-style: none;
 }

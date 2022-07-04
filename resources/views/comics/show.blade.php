@@ -10,6 +10,14 @@
 			<p>Series: {{ $comics->series }}</p>
 			<p>Date of release: {{ $comics->sale_date }}</p>
 			<p>Type: {{ $comics->type }}</p>
+			<div class="buttons">
+				<a href="{{ route('comics.edit', ['comic' => $comics->id]) }}" class="btn btn-primary">Modify</a>
+				<form action="{{ route('comics.destroy', ['comic' => $comics->id]) }}" method="POST">
+					@csrf
+					@method('DELETE')
+					<button type="submit" class="btn btn-danger">Delete</button>
+				</form>
+			</div>
 		</div>
 	</div>
 @endsection
